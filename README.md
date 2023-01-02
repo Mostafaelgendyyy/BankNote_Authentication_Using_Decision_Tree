@@ -1,5 +1,7 @@
 # BankNote_Authentication_Using_Decision_Tree
-Whenever you go to the bank to deposit some cash money, the cashier places banknotes in a machine that tells whether a banknote is real or not. This is a classification problem where we are given some input data and we have to classify the input into one of the several predefined categories. Rule-based as well as statistical techniques are commonly used for solving classification problems. Machine learning algorithms fall in the category of statistical techniques.
+Whenever you go to the bank to deposit some cash money, the cashier places banknotes in a machine that tells whether a banknote is real or not. This is a classification problem where we are given some input data and we have to classify the input into one of the several predefined categories. Rule-based as well as statistical techniques are commonly used for solving classification problems. Machine learning algorithms fall in the category of statistical techniques
+![image](https://user-images.githubusercontent.com/85330521/210282293-3faede62-2782-4709-acb7-959aaf7f9f50.png)
+
 # Authenticating whether a banknote is real or not is one of the most common tasks in the banking industry.
 In this article, we explain the process of building a banknote authentication system using machine learning algorithms. After reading this article, you will be able to understand how classification systems are built using machine learning algorithms.
 
