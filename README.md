@@ -1,4 +1,11 @@
 # BankNote_Authentication_Using_Decision_Tree
+Whenever you go to the bank to deposit some cash, the cashier places banknotes in a machine that tells whether a banknote is genuine or counterfeit. The machine uses some classification techniques to do it.
+
+
+
+
+
+
 1. Experiment with a fixed train_test split ratio:Use 25% of the samples for
 training and the rest for testing.
 
