@@ -4,15 +4,39 @@ Whenever you go to the bank to deposit some cash money, the cashier places bankn
 
 # Authenticating whether a banknote is real or not is one of the most common tasks in the banking industry.
 In this article, we explain the process of building a banknote authentication system using machine learning algorithms. After reading this article, you will be able to understand how classification systems are built using machine learning algorithms.
+•
+
+# BankNote Dataset Description
+We will be working with the “Banknote” standard binary classification dataset.
+
+The banknote dataset involves predicting whether a given banknote is authentic given a number of measures taken from a photograph.
+
+The dataset contains 1,372 rows with 5 numeric variables. It is a classification problem with two classes (binary classification).
+
+Below provides a list of the five variables in the dataset.
+
+    •   variance of Wavelet Transformed image (continuous).
+
+    •   skewness of Wavelet Transformed image (continuous).
+
+    •   kurtosis of Wavelet Transformed image (continuous).
+
+    •   entropy of image (continuous).
+
+    •   class (integer).
+![image](https://user-images.githubusercontent.com/85330521/210282645-cddf3277-ab69-4a74-a994-57796056ba40.png)
+
+A histogram plot is then created for each variable.
+
+We can see that perhaps the first two variables have a Gaussian-like distribution and the next two input variables may have a skewed Gaussian distribution or an exponential distribution.
+![image](https://user-images.githubusercontent.com/85330521/210282769-95d6a733-53b0-4456-8838-78e8ecee788c.png)
 
 
-
-
-# process of building a banknote authentication system
+# Process of building a banknote authentication system
 1. Experiment with a fixed train_test split ratio:Use 25% of the samples for
 training and the rest for testing.
 
-    A.	Rerun this experiment five times and notice the impact of different random splits of the data into training and test sets.
+   A.	Rerun this experiment five times and notice the impact of different random splits of the data into training and test sets.
    
    B.	Report the sizes and accuracies of these trees in each experiment.
 
@@ -33,5 +57,5 @@ set_size :
 
     E. Draw two plots: 
 
-        1) shows accuracy against training set size and 
-        2) the number of nodes in the final tree against training set size.
+        1) Shows accuracy against training set size.
+        2) The number of nodes in the final tree against training set size.
