@@ -1,9 +1,10 @@
 # BankNote_Authentication
 1. Experiment with a fixed train_test split ratio:Use 25% of the samples for
 training and the rest for testing.
-A. Rerun this experiment five times and notice the impact of different
+A.	Rerun this experiment five times and notice the impact of different
 random splits of the data into training and test sets.
-B. Report the sizes and accuracies of these trees in each experiment.
+B.	Report the sizes and accuracies of these trees in each experiment.
+
 
 2. Experiment with a range of train_test split ratio: Measure the impact of
 training set size on the accuracy and the size of the learned tree.
